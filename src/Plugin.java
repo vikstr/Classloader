@@ -1,3 +1,3 @@
 public interface Plugin {
-    void douseful();
+    void doUseful();
 }
