@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c1e3479-ba07-4fc2-a908-690f9e801d2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EncryptedClassLoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classloader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Classloader.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EncryptedClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EncryptedClassLoaderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EncryptedClassLoaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -119,6 +112,24 @@
           <expand>
             <path>
               <item name="Classloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Classloader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Classloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Classloader" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Classloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Classloader" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Classloader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Classloader" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
               <item name="Classloader" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -194,7 +205,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555775829250</updated>
-      <workItem from="1558268596943" duration="2131000" />
+      <workItem from="1558268596943" duration="3059000" />
     </task>
     <servers />
   </component>
@@ -202,9 +213,21 @@
     <history-entry file="EncryptedClassLoaderTest - 2019.05.19 at 15h 42m 14s.xml">
       <configuration name="EncryptedClassLoaderTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EncryptedClassLoaderTest - 2019.05.19 at 16h 02m 45s.xml">
+      <configuration name="EncryptedClassLoaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EncryptedClassLoaderTest - 2019.05.19 at 16h 03m 24s.xml">
+      <configuration name="EncryptedClassLoaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EncryptedClassLoaderTest - 2019.05.19 at 16h 04m 11s.xml">
+      <configuration name="EncryptedClassLoaderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EncryptedClassLoaderTest - 2019.05.19 at 16h 05m 02s.xml">
+      <configuration name="EncryptedClassLoaderTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2131000" />
+    <option name="totallyTimeSpent" value="3059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
@@ -281,11 +304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EncryptedClassLoaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
