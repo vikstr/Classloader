@@ -1,6 +1,4 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -15,9 +13,9 @@ public class EncryptedClassLoader extends ClassLoader {
         this.dir = dir;
     }
     @Override
-    protected Class<?> findClass(String name) throws ClassNotFoundException {
-        Path file = Paths.get(dir.getPath() + "/" + name.replace('.', '/').concat(".class"));
+    protected Class<?> findClass(String name) {
         int hashKey= key.hashCode();
+        Path file = Paths.get(dir.getPath() + "/" + name.replace('.', '/') + ".class");
         byte[] cypher = new byte[0];
         try {
             cypher = Files.readAllBytes(file);
@@ -25,7 +23,8 @@ public class EncryptedClassLoader extends ClassLoader {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        for (int i = 0; i < cypher.length; i++) {
+        long len = cypher.length;
+        for (int i = 0; i < len; i++) {
             cypher[i] = (byte) (cypher[i] + hashKey);
         }
         return defineClass(name, cypher, 0, cypher.length);
